@@ -1,4 +1,5 @@
 int backlogValue() {
-    int* value = nullptr;
+    int fallback = 0;
+    int* value = &fallback;
     return *value;
 }
