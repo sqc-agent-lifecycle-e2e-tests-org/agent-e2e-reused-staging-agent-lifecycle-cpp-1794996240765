@@ -4,6 +4,7 @@ int main(int argc, char **argv) {
     switch (argc) {
     case 1:
         std::puts("one");
+        [[fallthrough]];
     case 2:
         std::puts("two");
         break;
